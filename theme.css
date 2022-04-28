@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
-
 body {
   background: #0b1727 !important;
   width: 100% !important;
-  max-width: 1140px !important;
+  max-width: 1300px !important;
   position: absolute !important;
   left: 50% !important;
   transform: translate(-50%) !important;
@@ -50,6 +48,10 @@ body {
   box-shadow: none !important;
 }
 @media only screen and (max-width: 770px) {
+  .ebtnLL #logo svg {
+    width: 70px !important;
+    margin-left: 20px !important;
+  }
 	#logo::before {
   content: "";
   width: 32px;
@@ -63,15 +65,6 @@ body {
   top: 11px;
   display: none;
 }
-#logo a::before {
-	font-family: 'Poppins' !important;
-    content: "Falix";
-    font-size: 1.728rem;
-    margin: 0px 0px 0px 0px;
-    position: absolute;
-    font-weight: bold;
-    color: white !important;
-}
 #logo a {font-size: 0px !important}
 .fhnXAb {display: none !important}
 	.fmPgAW > a, .fmPgAW > button, .fmPgAW > .navigation-link {
@@ -80,7 +73,7 @@ body {
   width: 66px;
 }
 	.cWFcHc > div > a, .cWFcHc > div > div {
-  display: grid;
+  display: grid !important;
   grid-template-columns: 20px auto;
   grid-gap: 20px;
   fill: white;
@@ -109,15 +102,6 @@ body {
   left: 16px !important;
   top: 11px !important;
   display: none !important;
-}
-#logo a::before {
-	font-family: 'Poppins' !important;
-    content: "Falix" !important;
-    font-size: 1.728rem !important;
-    margin: 3px 0px 0px 0px !important;
-    position: absolute !important;
-    font-weight: bold !important;
-    color: white !important;
 }
 #logo a {font-size: 0px !important}
 .fhnXAb {display: none !important}
@@ -278,7 +262,10 @@ body {
   align-items: center !important;
 }
 .fmPgAW > button {text-align: left !important;}
-
+.ebtnLL #logo svg {
+  width: 70px;
+  margin-left: 20px;
+}
 
 /** SERVERS LIST **/
 .status-bar {
@@ -297,6 +284,17 @@ body {
 }
 .chartjs-render-monitor {
   filter: hue-rotate(30deg) brightness(0.7) !important;
+}
+.piqbQ {
+  width: 300px !important;
+}
+.iyAtmz {
+  width: 720px !important;
+}
+.jSyjnD:focus {
+  border-color: transparent !important;
+  background: #232e3c !important;
+  border-radius: 0px 0px 4px 0px !important;
 }
 /** FILE MANAGER **/
 .hPDmrf.hPDmrf {
