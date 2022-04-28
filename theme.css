@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body {
+  background: #0b1727 !important;
+  width: 100% !important;
+  max-width: 1140px !important;
+  position: absolute !important;
+  left: 50% !important;
+  transform: translate(-50%) !important;
+}
+.kwjWaB {
+  background: #121e2d !important;
+}
+.gHwjbw, .grusjm {
+  background: rgb(35, 46, 60) !important;
+}
+.hIHBYg, .cMBIEc, .eGIYvK, .kiwnZU, .gFsHRA,
+.hfBvRz, .liBonM, .kHuGmn, .kqnFDg {
+  background: #121e2d !important;
+}
+
+/** LOGIN IN SCREEN **/
+.jbDTOK {
+  background: #121e2d;
+  color: white !important;
+}
+.drrdV {
+	display: none !important;
+}
+.jbDTOK {
+  padding-left: 1.5rem !important;
+}
+.dlUeSf {
+  color: white !important;
+}
+
+/** MOBILE SUPPORT >:c **/
+.cWFcHc {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+.ebtnLL {
+  background: #121e2d !important;
+}
+.eQzRij {
+  height: 300%;
+}
+.fmPgAW [aria-current="page"] {
+  background: var(--tw-ring-color) !important;
+  box-shadow: none !important;
+}
+@media only screen and (max-width: 770px) {
+	#logo::before {
+  content: "";
+  width: 32px;
+  height: 32px;
+  background-image: url(https://falixnodes.net/assets/images/favicon/256x256.webp);
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  left: 16px;
+  top: 11px;
+  display: none;
+}
+#logo a::before {
+	font-family: 'Poppins' !important;
+    content: "Falix";
+    font-size: 1.728rem;
+    margin: 0px 0px 0px 0px;
+    position: absolute;
+    font-weight: bold;
+    color: white !important;
+}
+#logo a {font-size: 0px !important}
+.fhnXAb {display: none !important}
+	.fmPgAW > a, .fmPgAW > button, .fmPgAW > .navigation-link {
+  font-size: 0px !important;
+  fill: white !important;
+  width: 66px;
+}
+	.cWFcHc > div > a, .cWFcHc > div > div {
+  display: grid;
+  grid-template-columns: 20px auto;
+  grid-gap: 20px;
+  fill: white;
+  margin: 6px 10px !important;
+}
+.cWFcHc [aria-current="page"] {
+  background: var(--tw-ring-color) !important;
+  border-radius: 4px !important;
+  box-shadow: none !important;
+  color: white !important;
+}
+}
+
+@media only screen and (min-width: 770px) {
+/** SIDEBAR **/
+#logo::before {
+	font-family: 'Poppins' !important;
+  content: "" !important;
+  width: 32px !important;
+  height: 32px !important;
+  background-image: url(https://falixnodes.net/assets/images/favicon/256x256.webp) !important;
+  position: absolute !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  left: 16px !important;
+  top: 11px !important;
+  display: none !important;
+}
+#logo a::before {
+	font-family: 'Poppins' !important;
+    content: "Falix" !important;
+    font-size: 1.728rem !important;
+    margin: 3px 0px 0px 0px !important;
+    position: absolute !important;
+    font-weight: bold !important;
+    color: white !important;
+}
+#logo a {font-size: 0px !important}
+.fhnXAb {display: none !important}
+
+.cWFcHc {
+    position: fixed  !important;
+    top: 236px  !important;
+    left: 0px  !important;
+    width: 220px  !important;
+    height: auto !important;
+  background: transparent !important;
+    overflow: auto !important;
+    padding-top: 10px !important;
+  box-shadow: none !important;
+}
+.cWFcHc > div {
+    display: grid !important;
+    overflow: auto !important;
+    padding-top: 10px !important;
+}
+
+.cZTZeB {
+    position: absolute  !important;
+    left: 250px  !important;
+    width: calc(100% - 280px) !important;
+    top: 0px !important;
+	margin: 0px !important;
+}
+
+.cWFcHc .active[aria-current="page"] {
+  box-shadow: none !important;
+  border-radius: 4px !important;
+  background: transparent !important;
+  color: #2970cc !important;
+  font-weight: bold !important;
+}
+
+.cWFcHc > div > a {
+  margin: 0px !important;
+  padding: 6px 10px !important;
+}
+.cWFcHc > div > a:hover {
+  color: white !important;
+  cursor: pointer !important;
+}
+.cWFcHc > div > a:active {
+  box-shadow: none !important;
+}
+.cWFcHc::before {
+  content: "Server" !important;
+  margin: 0px 0px 0px 16px !important;
+  color: #5e6e82 !important;
+  font-size: 0.75rem !important;
+}
+.cWFcHc::after {
+  content: "" !important;
+  background: rgba(255,255,255,0.08) !important;
+  width: calc(100% - 80px) !important;
+  height: 1px !important;
+  position: absolute !important;
+  top: 19px !important;
+  right: 0px !important;
+}
+.fmPgAW::before {
+  content: "Game Panel" !important;
+  margin: 10px 0px 12px 8px !important;
+  color: #5e6e82 !important;
+  font-size: 0.75rem !important;
+}
+.fmPgAW::after {
+  content: "" !important;
+  background: rgba(255,255,255,0.08) !important;
+  width: calc(100% - 100px) !important;
+  height: 1px !important;
+  position: absolute !important;
+  top: 19px !important;
+  right: 0px !important;
+}
+
+.ebtnLL::before {
+  content: "" !important;
+  position: fixed !important;
+  top: 0px !important;
+  left: 0px !important;
+  width: 220px !important;
+  height: 100% !important;
+  background: transparent !important;
+}
+.ebtnLL > div {
+  position: fixed !important;
+  top: 0px !important;
+  background: transparent !important;
+  left: 0px !important;
+  transition: 0.3s width, 0.3s left !important;
+  width: 220px !important;
+	height: 200px !important;
+}
+.fmPgAW {
+  height: fit-content !important;
+  position: absolute !important;
+  top: 60px !important;
+  left: 7px !important;
+  display: grid !important;
+  width: 100% !important;
+  justify-content: left !important;
+}
+.fmPgAW .active {
+  background: #2970cc !important;
+  box-shadow: none !important;
+}
+.tupl2x-2.fOFvgZ {
+  border: none !important;
+}
+.fOFvgZ {
+  display: grid !important;
+  grid-template-rows: 50px 160px !important;
+  grid-gap: 20px 0px !important;
+}
+
+.glvBWj {
+  transform: translateX(-230px) !important;
+}
+
+
+.fmPgAW a, .fmPgAW button, .navigation-link {
+  margin: 0px !important;
+  padding: 6px 10px !important;
+  border-radius: 4px !important;
+  color: #9aa5b1 !important;
+  text-align: center !important;
+  height: fit-content !important;
+  margin-right: 6px !important;
+  font-size: 14px !important;
+  width: 100% !important;
+}
+
+.fmPgAW a:hover, .fmPgAW button:hover, .navigation-link:hover {
+  background: transparent !important;
+  color: white !important;
+}
+.fmPgAW a:hover, .fmPgAW button:hover, .navigation-link:hover {
+  box-shadow: none !important;
+}
+.fmPgAW button:hover {
+  background: transparent !important;
+}
+.fmPgAW [aria-current="page"] {
+  background: transparent !important;
+  color: white !important;
+}
+
+.fmPgAW > a, .fmPgAW > button, .fmPgAW > .navigation-link,
+.cWFcHc > div > a {
+  display: grid !important;
+  grid-template-columns: 16px auto !important;
+  grid-gap: 16px !important;
+  fill: white !important;
+  align-items: center !important;
+}
+.fmPgAW > button {text-align: left !important;}
+
+
+/** SERVERS LIST **/
+.status-bar {
+  width: 44px !important;
+  left: 0px !important;
+  border: 2px #1f2933 solid !important;
+  margin: 14px !important;
+  height: 44px !important;
+}
+.cNYQhw {
+  align-items: center;
+}
+/** CONSOLE **/
+.RkKIC {
+  margin-top: 25px !important;
+}
+.chartjs-render-monitor {
+  filter: hue-rotate(30deg) brightness(0.7) !important;
+}
+/** FILE MANAGER **/
+.hPDmrf.hPDmrf {
+  border-radius: 10px !important;
+}
+.kmEiCV {
+  position: fixed !important;
+  top: 14px !important;
+  background: #0b1727 !important;
+  right: 13px !important;
+  width: 430px !important;
+  text-align: right !important;
+}
+.kmEiCV button {
+  padding: 10px 16px !important;
+  margin: -6px 0px -6px 16px !important;
+}
+/* Editor */
+.ghnCHD {
+  margin-top: 128px !important;
+  border-width: 16px !important;
+}
+.dUlgzH {
+  height: calc(100% - 70px) !important;
+  position: fixed !important;
+  top: 70px !important;
+  left: 220px !important;
+  width: calc(100% - 220px) !important;
+}
+.gVhGwI {
+  position: fixed !important;
+  top: -6px !important;
+  right: 25px !important;
+}
+.fmAEBJ > div {
+  border-radius: 0px !important;
+}
+.gFqgtx {
+  width: calc(100% - 300px) !important;
+}
+/***/
+
+/** PLUGINS **/
+.bCPRk {
+  align-items: center !important;
+}
+.bCPRk a {
+  border-radius: 4px !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 10px 10px !important;
+  height: 70px !important;
+}
+/** DATABASES **/
+.kjlQDy {
+  display: grid !important;
+  grid-template-columns: auto auto auto !important;
+}
+/** ERRORS **/
+.cagwOa {
+  background: transparent !important;
+  color: white !important;
+  box-shadow: none !important;
+}
+.cagwOa h2 {
+  color: var(--tw-ring-color ) !important;
+}
+.cagwOa p {
+  color: white !important;
+  opacity: 0.7 !important;
+}
+
+.jRuAFi {
+  width: calc(100% - 220px) !important;
+  left: 220px !important;
+  position: absolute !important;
+  top: 10px !important;
+}
+/** Pop Up Dialogs **/
+.kNRuDt {
+  background: #121e2d !important;
+  margin: -16px -16px 14px -16px !important;
+  padding: 10px 0px 10px 16px !important;
+}
+.eQzRij {
+  background: rgba(11, 23, 39, 0.75) none repeat scroll 0% 0% !important;
+  height: 1080px !important;
+}
+
+.kqnFDg {
+  overflow: auto !important;
+}
+.eRosFw > .close-icon {
+  margin: 46px 16px 0px 0px !important;
+  background: #00000038 !important;
+  border-radius: 50px !important;
+}
+.eRosFw {
+  position: fixed !important;
+  left: 50% !important;
+  transform: translate(-50%) !important;
+  margin-left: 100px !important;
+}
+
+
+
+
+}
